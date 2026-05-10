@@ -1,0 +1,40 @@
+{
+  "name": "@bu0nq/scss-webfont-lato",
+  "version": "1.0.0",
+  "description": "Package for integrating WebFont Lato.",
+  "keywords": [
+    "lato",
+    "font",
+    "typeface",
+    "webfont",
+    "woff",
+    "woff2",
+    "scss"
+  ],
+  "main": "index.scss",
+  "exports": {
+    ".": {
+      "sass": "./index.scss",
+      "default": "./index.scss"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "bu0nq",
+    "email": "hello@bu0nq.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bu0nq/scss-webfont-lato.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bu0nq/scss-webfont-lato/issues"
+  },
+  "homepage": "https://github.com/bu0nq/scss-webfont-lato#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
